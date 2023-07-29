@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@vickttorugo-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,10 +28,10 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@vickttorugo-ignite-ui/eslint-config": "*",
+    "@vickttorugo-ignite-ui/react": "*",
+    "@vickttorugo-ignite-ui/tokens": "*",
+    "@vickttorugo-ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.0.10",
     "@storybook/addon-a11y": "^7.0.25",
     "polished": "^4.2.2",

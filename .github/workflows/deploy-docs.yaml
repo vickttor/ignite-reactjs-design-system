@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-jobs: 
+jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: 6VPuZRcGMiyw8rEzEMQqg8YK
+          TURBO_TEAM: vickttorugo
 
       - name: Deploy storybook
         working-directory: ./packages/docs

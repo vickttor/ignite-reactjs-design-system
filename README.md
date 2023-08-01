@@ -24,7 +24,7 @@ This is a Monorepo created through the Ignite ReactJS course. Here we have 5 Pac
 
 ### Preview
 
-![Home Page](./.github/coffee-home.png)
+![Home Page](./.github/screenshots/button-storybook.png)
 
 ### Stack
 

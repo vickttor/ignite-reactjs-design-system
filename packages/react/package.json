@@ -2,9 +2,9 @@
   "name": "@vickttorugo-ignite-ui/react",
   "version": "2.2.1",
   "description": "React repo",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.{ts,tsx} --format esm,cjs --dts --external react",
     "dev": "tsup src/index.{ts,tsx} --format esm,cjs --dts --external react --watch",

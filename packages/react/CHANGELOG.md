@@ -1,5 +1,11 @@
 # @vickttorugo-ignite-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- Fixed some styles issues
+
 ## 2.2.0
 
 ### Minor Changes

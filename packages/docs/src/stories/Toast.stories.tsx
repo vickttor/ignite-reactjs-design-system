@@ -1,11 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, Toast, ToastProps } from '@vickttorugo-ignite-ui/react'
+import { Box, Button, Toast, ToastProps } from '@vickttorugo-ignite-ui/react'
 import { useState } from 'react'
 
 export default {
   title: 'Surfaces/Toast',
   component: Toast,
-  tags: ['autodocs'],
   decorators: [
     (Story) => {
       const [isToastOpen, setIsToastOpen] = useState(false)
@@ -13,10 +12,11 @@ export default {
       const handleOpenToast = () => setIsToastOpen(true)
 
       return (
-        <>
+        <Box>
           <Button size="sm" onClick={handleOpenToast}>
             Open Toast Notification
           </Button>
+
           {Story({
             args: {
               title: 'Primary Toast Notification',
@@ -25,7 +25,7 @@ export default {
               onOpenChange: setIsToastOpen,
             },
           })}
-        </>
+        </Box>
       )
     },
   ],

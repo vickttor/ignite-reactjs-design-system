@@ -1,5 +1,11 @@
 # @vickttorugo-ignite-ui/react
 
+## 2.2.2
+
+### Patch Changes
+
+- Fixing the distribution version in the react and tokens package
+
 ## 2.2.1
 
 ### Patch Changes

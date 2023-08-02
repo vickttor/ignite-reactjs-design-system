@@ -1,6 +1,6 @@
 {
   "name": "@vickttorugo-ignite-ui/react",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "React repo",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
